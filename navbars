@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>MY First CODEPEN</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
+   
+    
+  </head>
+  
+  <body style="background-color:#ECEFF1">
+      
+      <div class="page-header" style="justify-content:space-between">
+    <center><h1>Beacon<small style="font-size:small">How is the world today ?</small></h1></center>
+</div>
+    
+     
+        <ul class="nav nav-tabs" style="background-color:#90CAF9">
+            
+        <li class="nav active" style="font-weight: bold"><a href="#home" data-toggle="tab">HOME</a></li>
+        <li class="nav" style="font-weight: bold"><a href="#Basics" data-toggle="tab">US</a></li>
+        <li class="nav" style="font-weight: bold"><a href="#consoledocs" data-toggle="tab">Asia</a></li>
+        <li class="nav" style="font-weight: bold"><a href="#howtos" data-toggle="tab">Brazil</a></li>
+        <li class="nav" style="font-weight: bold"><a href="#docs1" data-toggle="tab">India</a></li>
+        <li class="nav" style="font-weight: bold"><a href="#docs2" data-toggle="tab">UK</a></li>
+
+
+            </ul>
+          
+                        
+             <div class="tab-content">
+                 
+              <div class="tab-pane fade in active" id="home" >
+                  
+            <div class="welcome-wrapper">
+  <div class="welcome">
+    <div class="message">
+      <h1>Welcome</h1>
+      <span class="subheader">to <strong>MYFIRSTPEN</strong> homepage</span>
+    </div>
+  </div>
+</div>
+                  
+
+
+                  </div>
+                  
+                     <style>
+                        
+                      .welcome-wrapper {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+                      .welcome {
+  position: absolute;
+  clear: both;
+  width: 100%;
+  padding: 3rem 5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #000000;
+  background-color: rgba(0,0,0,0.2);
+
+}
+                      .message {
+  float: left;
+  width: 50%;
+}
+                      .message h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: 300;
+  margin: 0;
+}
+                      .message strong {
+  font-weight: 300;
+}
+
+
+                  </style>
+  <div class="tab-pane fade" id="Basics">
+         <div class="container">
+
+      <nav class="navbar navbar-default" style="background-color:#EEEEEE" >
+  <div class="container-fluid" style="background-color:#EEEEEE">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" style="background-color:#EEEEEE">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+   
+    </div>
+      
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#EEEEEE">
+        
+      <ul id="tabs" class="nav navbar-nav navbar-left"  data-tabs="tabs" style="background-color:#EEEEEE">
+         
+        <li class="active"><a href="#homescreen" data-toggle="tab" style="float:left">category1</a></li>
+        <li style="float:left"><a href="#forcat1"data-toggle="tab">category2</a></li>
+        <li style="float:left"><a href="#forcat2"data-toggle="tab">category3</a></li>
+        <li style="float:left"><a href="#forcat3"data-toggle="tab">category4</a></li>
+        <li style="float:left"><a href="#forcat4"data-toggle="tab">category5</a></li>
+        <li style="float:left"><a href="#forcat5"data-toggle="tab">category6</a></li>
+        
+        <li style="float:right"><a href="#foranything"data-toggle="tab">Find anything</a></li>
+        </ul>
+
+       
+
+      
+      
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+     
+
+
+           <center><h2>Choose category to find the contact</h2></center>
+<div id="my-tab-content" class="tab-content">
+    
+      
+    <div class="tab-pane active" id="homescreen" >
+       
+     <ul class="nav nav-tabs" style="background-color:#80D8FF">
+        <li class="nav active"><a href="#subcat1" data-toggle="tab">subcat1</a></li>
+        <li class="nav"><a href="#subcat2" data-toggle="tab">subcat2</a></li>
+        <li class="nav"><a href="#subcat3" data-toggle="tab">subcat3</a></li>
+        
+  </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="subcat1">
+          <h3>Hello there</h3>
+          <p>content 1</p>
+      </div>
+      
+        <div class="tab-pane fade" id="subcat2">
+          <h3>Hello There</h3>
+          <p>Content 2</p>
+        </div>
+              <div class="tab-pane fade" id="subcat3">
+          <h3>Hello There</h3>
+          <p>Content 3</p>
+        </div>
+    </div>
+</div>
+
+    
+       <div class="tab-pane" id="forcat1">
+           
+        <ul class="nav nav-tabs" style="background-color:#80D8FF">
+        
+        <li class="nav active"><a href="#subcat5" data-toggle="tab">subcat5</a></li>
+        <li class="nav"><a href="#subcat6" data-toggle="tab">subcat6</a></li>
+        <li class="nav"><a href="#subcat7" data-toggle="tab">subcat7</a></li>
+        
+  </ul>
+  </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="subcat5">
+          <h3>heythere</h3>
+          <p>content 5</p>
+      </div>
+      
+        <div class="tab-pane fade" id="subcat6">
+          <h3>Hello There</h3>
+          <p>Content 6</p>
+        </div>
+              <div class="tab-pane fade" id="subcat7">
+          <h3>Hello There</h3>
+          <p>Content 7</p>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="tab-pane" id="foranything">
+        
+        <ul class="nav nav-tabs" style="background-color:#80D8FF">
+        <li class="nav active"><a href="#basic1" data-toggle="tab">basic</a></li>
+        <li class="nav"><a href="#web" data-toggle="tab">webbasic</a></li>
+        <li class="nav"><a href="#basic4" data-toggle="tab">basic4</a></li>
+        <li class="nav"><a href="#basic6" data-toggle="tab">basic6</a></li>
+        
+  </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="basic1">
+          <h3>basic</h3>
+          <p>content only </p>
+         
+
+
+                 </div>
+      
+        <div class="tab-pane fade" id="web">
+          <h3>webbasic</h3>
+        
+        
+        
+        </div>
+
+         <div class="tab-pane fade" id="basic4">
+          <h3>content real</h3>
+          
+        </div>
+    </div>
+    </div>
+
+
+          
+    
+         
+          </div>
+         
+
+
+
+          </div>
+        
+        
+        </div>
+
+
+                 <div class="tab-pane fade" id="consoledocs">
+                     
+                     <div class="tab-pane">
+        
+        <ul class="nav nav-tabs" style="background-color:#80D8FF">
+        <li class="nav active"><a href="#cat1info" data-toggle="tab">cat1</a></li>
+        <li class="nav active"><a href="#cat5info" data-toggle="tab">cat5</a></li>
+        <li class="nav"><a href="#cat6info" data-toggle="tab">cat6</a></li>
+        <li class="nav"><a href="#cat7info" data-toggle="tab">cat7</a></li>
+        
+  </ul>
+                         <div class="tab-content">
+                             <div class="tab-pane fade in active" id="cat1info">
+                                 <h1>docs here</h1>
+
+
+                 </div>
+                             <div class="tab-pane fade" id="cat5info">
+                                 <h1>hello</h1>
+                                 </div>
+
+
+
+                         </div>
+
+
+
+
+
+
+
+                     </div>
+
+
+
+
+                     
+
+
+
+              </div>
+
+
+                  <div class="tab-pane fade" id="howtos">
+                      <h1>hey</h1>
+
+
+
+
+
+                      
+                  </div>
+
+                 <div class="tab-pane fade" id="docs1">
+                      <h1>hey</h1>
+                  </div>
+
+          <div class="tab-pane fade" id="docs2">
+                      <h1>hey</h1>
+                  </div>
+
+    
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+          
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+   
+    <p align="right" style="color:aliceblue">Made by Nilesh Giri</p>
+ 
+
+
+</div>
+          
+
+
+
+  
+               
+               
+               
+               
+  
+  
+  
+  
